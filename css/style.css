@@ -116,7 +116,7 @@ img{
 /*MAIN*/
 
 .product{
-    margin: 10px auto;
+    margin: 40px auto;
     height:600px;
 
     /*DEBUG*/
@@ -125,6 +125,7 @@ img{
 
 .col{
     width: calc(100% / 3);
+    margin-right:30px;
     /*DEBUG*/
     border: 1px solid black;
 }
