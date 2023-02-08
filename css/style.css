@@ -141,36 +141,62 @@ img{
     top:0;
     left:0;
     flex-grow: 1;
-    /* background-image: url("../img/1.webp");
+    background-image: url("../img/1.webp");
     background-size: cover;
-    background-position: center; */
+    background-position: center;
 
     /*DEBUG*/
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 /*BANNER INSIDE THE IMG PRODUCT*/
 
 
 .alert{
-    width:60px;
+    width:100%;
     min-height:30px;
-    position: relative;
-    bottom: 2;
+    position: absolute;
+    bottom: 50px;
     left:0;
-    /*DEBUG*/
-    background-color:grey;
 
+    /*DEBUG*/
+    /* background-color:grey; */
 }
 
 
+.heart{
+    position:absolute;
+    top:0;
+    right:0;
+    width:1.5em;
+    height:1.5em;
+    background-color: white;
+    text-align:center;
+    line-height: 1.5em;
+    font-size: 2rem;
+}
+
 /*ALERT INSIDE THE IMG*/
-.discount{
+
+.banner-rectangle{
     display: inline-block;
+    margin-right:20px;
+    text-align: center;
+    line-height: 2em;
+}
+.discount{
+    width: 4em;
+    height: 2rem;
+    background-color: red;
+    color:white;
 }
 
 .sustainable{
-    display: inline-block;
+    width: 6em;
+    height: 2rem;
+    text-align: center;
+    background-color: green;
+    color:white;
 }
 
 .product-info{
