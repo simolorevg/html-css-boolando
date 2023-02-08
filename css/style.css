@@ -141,9 +141,9 @@ img{
     top:0;
     left:0;
     flex-grow: 1;
-    background-image: url("../img/1.webp");
+    /* background-image: url("../img/1.webp");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 
     /*DEBUG*/
     background-color: blue;
@@ -151,10 +151,23 @@ img{
 
 /*BANNER INSIDE THE IMG PRODUCT*/
 
+
+.alert{
+    width:60px;
+    min-height:30px;
+    position: relative;
+    bottom: 2;
+    left:0;
+    /*DEBUG*/
+    background-color:grey;
+
+}
+
+
+/*ALERT INSIDE THE IMG*/
 .discount{
     display: inline-block;
 }
-
 
 .sustainable{
     display: inline-block;
