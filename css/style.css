@@ -152,6 +152,22 @@ img{
     background-image: url("../img/3b.webp");
 }
 
+.product-card:hover .levisb{
+    background-image:url("../img/4b.webp");
+}
+
+.product-card:hover .mayadeluxe{
+    background-image: url("../img/5b.webp");
+}
+
+.product-card:hover .espirit{
+    background-image: url("../img/6b.webp");
+}
+
+
+
+
+
 .product-img{
     position:relative;
     top:0;
@@ -198,7 +214,26 @@ img{
     background-position: center;
 }
 
+.levisb{
+    background-image: url("../img/4.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
 
+.mayadeluxe{
+    background-image: url("../img/5.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.espirit{
+    background-image: url("../img/6.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
 /*BANNER INSIDE THE IMG PRODUCT*/
 
 
