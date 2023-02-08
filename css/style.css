@@ -6,19 +6,66 @@
 }
 
 /*COMMON*/
-.container{
+.center{
     width: 80%;
     margin: 0 auto;
+}
+
+/*FLEXBOX*/
+
+.flex{
+    display:flex;
+}
+
+.flexrwsb{
+    display:flex;
+    justify-content: space-between;
+}
+
+.flexcenter{
+    display:flex;
+    align-items: center;
 }
 
 /*HEADER*/
 
 .navbar-background{
-    position: relative;
-    top:0;
-    left:0;
+    width:100%;
     background-color: #ff6900;
     height:100px;
+}
+
+.navbar{
+    height:50px;
+    min-width:50px;
+
+    /*DEBUG*/
+    border: 1px solid black;
+}
+
+.category-garments{
+    width:20%;
+    height: 100%;
+    /*DEBUG*/
+    border:1px solid blue;
+    background-color: blue;
+}
+
+.main-logo{
+    flex-grow: 1;
+
+    /*DEBUG*/
+    border:1px solid red;
+    background-color: red;
+}
+
+.icons{
+    width:20%;
+    height: 100%;
+
+    /*DEBUG*/
+    border:1px solid yellow;
+    background-color: yellow;
 }
 
 /*MAIN*/
