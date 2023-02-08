@@ -8,13 +8,24 @@
 /*COMMON*/
 .center{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 50px;
 }
 
 img{
     max-height: 100%;
+    max-width:100%;
 }
 
+
+/*POSITION*/
+
+.relative{
+    position:relative;
+}
+
+.absolute{
+    position:absolute;
+}
 
 /*FLEXBOX*/
 
@@ -39,6 +50,11 @@ img{
     align-items: center;
 }
 
+.flexcol{
+    display:flex;
+    flex-direction:column;
+    align-content: stretch;
+}
 
 /*HEADER*/
 
@@ -99,5 +115,36 @@ img{
 }
 
 /*MAIN*/
+
+.product{
+    margin: 10px auto;
+    height:600px;
+
+    /*DEBUG*/
+    border: 1px solid black;
+}
+
+.col{
+    width: calc(100% / 3);
+    /*DEBUG*/
+    border: 1px solid black;
+}
+
+.product-card{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+.product-info{
+    width:100%;
+    height:50px;
+    position:relative;
+    bottom:0;
+    left:0;
+    /*DEBUG*/
+    background-color: purple;
+}
+
 
 /*FOOTER*/
